@@ -1,0 +1,107 @@
+body{
+  background-color:#f4f3ef;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  background-color: #002F6C;
+  position: sticky;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;  
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+li a:hover:not(.active) {
+  background-color: silver;
+}
+.finland-image {
+  background-image: url("https://www.intrepidtravel.com/sites/intrepid/files/styles/1400w/public/pd/banner/Red-wooden-cottage-by-the-lake-in-rural-Finland.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.finland-text {
+  
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+}
+.todo {
+  background-image: url("https://herfinland.com/wp-content/uploads/2018/01/best-time-to-see-northern-lights-finland-1024x675.jpg");
+  height: 450px;
+  background-size:100%;
+  background-position:center;
+  background-repeat: no-repeat;  
+  position: relative;
+}
+.textblock1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.itjobs {
+  background-image: url("https://www.nationalgeographic.com/content/dam/travel/2017-digital/finland/helsinki-finland.jpg");
+  height: 450px;
+  background-size:100%;
+  background-position:center;
+  background-repeat: no-repeat;  
+  position: relative;
+}
+.textblock2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contactpage {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAnSKRtfMdRKHFwOrmSw3o_eipDKlh45FSL1jJlWizZYyII1Mj&s");
+  height: 450px;
+  background-size:50% 50%;
+  background-position:center;
+  background-repeat: no-repeat;  
+  position: relative;
+}
+.textblock3 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer {
+  width: 100%;
+  background-color: #002F6C;
+  padding: 20px 0px
+}
+.footer-title{
+  text-decoration: none;
+  color: white;
+  text-align: center
+}
+.copyrights{
+  color: white;
+  text-align: center;
+}
+.validator {
+  margin-left: 550px;
+}

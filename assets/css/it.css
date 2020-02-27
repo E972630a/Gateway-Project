@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  background-color: #002F6C;
+  position: sticky;
+}
+li {
+  float: left;
+}
+ li a {
+  display: block;
+  color: white;
+  text-align: center;  
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: silver;
+}
+.itjob-image {
+  background-image: url("https://www.nationalgeographic.com/content/dam/travel/2017-digital/finland/helsinki-finland.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.itjob-text {
+  margin-left: 400px;
+  color: white;
+}
+.itjob-logos {
+  margin-left: 400px;
+  width: 250px;
+}
+.border{
+  border: 1px solid black;
+}
+footer {
+  width: 100%;
+  background-color:#002F6C;
+  padding: 20px 0px
+}
+.footer-title{
+  text-decoration: none;
+  color: white;
+  text-align: center
+}
+.copyrights{
+  color: white;
+  text-align: center;
+}
+.validator {
+  margin-left: 550px;
+}
